@@ -56,7 +56,7 @@ class View:
         ]))
         temp = self.Yh[0][self.clicks]
         pers = 0
-        for j in range(1, 5):
+        for j in range(0, 5):
             if temp < self.Yh[j + 1][self.clicks]:
                 temp = self.Yh[j + 1][self.clicks]
                 pers = j + 1
